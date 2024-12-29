@@ -1,0 +1,440 @@
+"C:\Users\radig\Desktop\CSC272 Machine Learning\BinaryClassification_Project1\.venv\Scripts\python.exe" "C:\Users\radig\Desktop\CSC272 Machine Learning\BinaryClassification_Project1\main.py" 
+
+Car Claimable Dataset
+
+
+Decision Tree Testing
+DTM1 Report
+Processing Time: 0.10 seconds
+F1 Score: 0.9050
+R2 Score: -0.0721
+Accuracy: 0.9358
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+                Feature  Importance
+3          area_cluster    0.026894
+22             cylinder    0.027288
+2   age_of_policyholder    0.029233
+4    population_density    0.052482
+11        max_power_bhp    0.093221
+1            age_of_car    0.297664
+0         policy_tenure    0.473220
+DTM2 Report
+Processing Time: 0.07 seconds
+F1 Score: 0.9051
+R2 Score: -0.0683
+Accuracy: 0.9361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+                Feature  Importance
+2   age_of_policyholder    0.010045
+11        max_power_bhp    0.129847
+1            age_of_car    0.354265
+0         policy_tenure    0.505843
+DTM3 Report
+Processing Time: 0.14 seconds
+F1 Score: 0.9048
+R2 Score: -0.0835
+Accuracy: 0.9351
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.06      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.50      0.50      0.48     17578
+weighted avg       0.88      0.94      0.90     17578
+
+                Feature  Importance
+30         gross_weight    0.013096
+22             cylinder    0.017509
+21         displacement    0.019084
+3          area_cluster    0.037572
+4    population_density    0.038976
+11        max_power_bhp    0.079977
+2   age_of_policyholder    0.085285
+1            age_of_car    0.208589
+0         policy_tenure    0.499911
+
+Perceptron Testing
+PM1 Report
+Processing Time: 0.03 seconds
+F1 Score: 0.9051
+R2 Score: -0.0683
+Accuracy: 0.9361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+PM2 Report
+Processing Time: 0.03 seconds
+F1 Score: 0.9051
+R2 Score: -0.0683
+Accuracy: 0.9361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+PM3 Report
+Processing Time: 0.05 seconds
+F1 Score: 0.9051
+R2 Score: -0.0683
+Accuracy: 0.9361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+
+KNN Testing
+KNNM1 Report
+Processing Time: 0.02 seconds
+F1 Score: 0.9010
+R2 Score: -0.2622
+Accuracy: 0.9245
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96     16454
+           1       0.08      0.02      0.03      1124
+
+    accuracy                           0.92     17578
+   macro avg       0.51      0.50      0.49     17578
+weighted avg       0.88      0.92      0.90     17578
+
+KNNM2 Report
+Processing Time: 0.02 seconds
+F1 Score: 0.9050
+R2 Score: -0.0740
+Accuracy: 0.9357
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.90     17578
+
+KNNM3 Report
+Processing Time: 0.01 seconds
+F1 Score: 0.9046
+R2 Score: -0.0940
+Accuracy: 0.9345
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.06      0.00      0.00      1124
+
+    accuracy                           0.93     17578
+   macro avg       0.50      0.50      0.48     17578
+weighted avg       0.88      0.93      0.90     17578
+
+
+Logistic Regression Testing
+LRM1 Report
+Processing Time: 2.69 seconds
+F1 Score: 0.9051
+R2 Score: -0.0683
+Accuracy: 0.9361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+LRM2 Report
+Processing Time: 2.47 seconds
+F1 Score: 0.9051
+R2 Score: -0.0683
+Accuracy: 0.9361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+LRM3 Report
+Processing Time: 2.74 seconds
+F1 Score: 0.9051
+R2 Score: -0.0683
+Accuracy: 0.9361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     16454
+           1       0.00      0.00      0.00      1124
+
+    accuracy                           0.94     17578
+   macro avg       0.47      0.50      0.48     17578
+weighted avg       0.88      0.94      0.91     17578
+
+
+ Client Subscribed A Term Deposit Dataset
+
+
+Decision Tree Testing
+DTM1 Report
+Processing Time: 0.05 seconds
+F1 Score: 0.8839
+R2 Score: 0.0138
+Accuracy: 0.8981
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.94     11977
+           1       0.62      0.33      0.43      1587
+
+    accuracy                           0.90     13564
+   macro avg       0.77      0.65      0.69     13564
+weighted avg       0.88      0.90      0.88     13564
+
+     Feature  Importance
+1        job    0.001885
+5    balance    0.002814
+8    contact    0.021947
+10     month    0.027260
+0        age    0.053105
+15  poutcome    0.058364
+6    housing    0.109136
+13     pdays    0.116884
+11  duration    0.608604
+DTM2 Report
+Processing Time: 0.03 seconds
+F1 Score: 0.8620
+R2 Score: -0.0797
+Accuracy: 0.8885
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94     11977
+           1       0.57      0.18      0.28      1587
+
+    accuracy                           0.89     13564
+   macro avg       0.74      0.58      0.61     13564
+weighted avg       0.86      0.89      0.86     13564
+
+     Feature  Importance
+8    contact    0.029982
+0        age    0.064075
+13     pdays    0.118087
+6    housing    0.133160
+11  duration    0.654696
+DTM3 Report
+Processing Time: 0.07 seconds
+F1 Score: 0.8898
+R2 Score: 0.0302
+Accuracy: 0.8998
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.94     11977
+           1       0.61      0.39      0.48      1587
+
+    accuracy                           0.90     13564
+   macro avg       0.77      0.68      0.71     13564
+weighted avg       0.89      0.90      0.89     13564
+
+      Feature  Importance
+14   previous    0.000959
+7        loan    0.001113
+2     marital    0.001404
+1         job    0.002098
+3   education    0.003944
+5     balance    0.007398
+12   campaign    0.008436
+9         day    0.022942
+8     contact    0.029505
+0         age    0.059024
+15   poutcome    0.070469
+10      month    0.081921
+6     housing    0.089039
+13      pdays    0.100180
+11   duration    0.521568
+
+Perceptron Testing
+PM1 Report
+Processing Time: 0.02 seconds
+F1 Score: 0.8256
+R2 Score: -0.2403
+Accuracy: 0.8719
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.99      0.93     11977
+           1       0.12      0.02      0.03      1587
+
+    accuracy                           0.87     13564
+   macro avg       0.50      0.50      0.48     13564
+weighted avg       0.79      0.87      0.83     13564
+
+PM2 Report
+Processing Time: 0.02 seconds
+F1 Score: 0.8256
+R2 Score: -0.2403
+Accuracy: 0.8719
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.99      0.93     11977
+           1       0.12      0.02      0.03      1587
+
+    accuracy                           0.87     13564
+   macro avg       0.50      0.50      0.48     13564
+weighted avg       0.79      0.87      0.83     13564
+
+PM3 Report
+Processing Time: 0.04 seconds
+F1 Score: 0.8060
+R2 Score: -0.7055
+Accuracy: 0.8238
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.92      0.90     11977
+           1       0.10      0.06      0.08      1587
+
+    accuracy                           0.82     13564
+   macro avg       0.49      0.49      0.49     13564
+weighted avg       0.79      0.82      0.81     13564
+
+
+KNN Testing
+KNNM1 Report
+Processing Time: 0.00 seconds
+F1 Score: 0.8626
+R2 Score: -0.2167
+Accuracy: 0.8743
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93     11977
+           1       0.44      0.29      0.35      1587
+
+    accuracy                           0.87     13564
+   macro avg       0.68      0.62      0.64     13564
+weighted avg       0.86      0.87      0.86     13564
+
+KNNM2 Report
+Processing Time: 0.00 seconds
+F1 Score: 0.8581
+R2 Score: -0.1332
+Accuracy: 0.8829
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94     11977
+           1       0.50      0.18      0.27      1587
+
+    accuracy                           0.88     13564
+   macro avg       0.70      0.58      0.60     13564
+weighted avg       0.85      0.88      0.86     13564
+
+KNNM3 Report
+Processing Time: 0.00 seconds
+F1 Score: 0.8583
+R2 Score: -0.1318
+Accuracy: 0.8831
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94     11977
+           1       0.50      0.18      0.27      1587
+
+    accuracy                           0.88     13564
+   macro avg       0.70      0.58      0.60     13564
+weighted avg       0.85      0.88      0.86     13564
+
+
+Logistic Regression Testing
+LRM1 Report
+Processing Time: 0.85 seconds
+F1 Score: 0.8674
+R2 Score: -0.0540
+Accuracy: 0.8911
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94     11977
+           1       0.60      0.21      0.31      1587
+
+    accuracy                           0.89     13564
+   macro avg       0.75      0.60      0.63     13564
+weighted avg       0.87      0.89      0.87     13564
+
+LRM2 Report
+Processing Time: 0.84 seconds
+F1 Score: 0.8674
+R2 Score: -0.0540
+Accuracy: 0.8911
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94     11977
+           1       0.60      0.21      0.31      1587
+
+    accuracy                           0.89     13564
+   macro avg       0.75      0.60      0.63     13564
+weighted avg       0.87      0.89      0.87     13564
+
+LRM3 Report
+Processing Time: 0.85 seconds
+F1 Score: 0.8674
+R2 Score: -0.0540
+Accuracy: 0.8911
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94     11977
+           1       0.60      0.21      0.31      1587
+
+    accuracy                           0.89     13564
+   macro avg       0.75      0.60      0.63     13564
+weighted avg       0.87      0.89      0.87     13564
+
+
+Process finished with exit code 0

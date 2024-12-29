@@ -1,0 +1,28 @@
+Manual,0
+Automatic,1
+Yes,1
+No,0
+Power,1
+Eletric,2
+Diesel,0
+Petrol,1
+CNG,2
+Drum,0
+Disc,1
+Utility,0
+A,1
+B1,2
+B2,3
+C1,4
+C2,5
+F8D Petrol Engine,0
+1.2 L K12N Dualjet,1
+1.0 SCe,2
+1.5 L U2 CRDi,3
+1.5 Turbocharged Revotorq,4
+K Series Dual jet,5
+1.2 L K Series Engine,6
+K10C,7
+i-DTEC,8
+G12B,9
+1.5 Turbocharged Revotron,10
